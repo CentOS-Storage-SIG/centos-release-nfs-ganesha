@@ -13,7 +13,7 @@ Build the package ike this:
     $ rpmbuild -bs \
                --define "_sourcedir $PWD" --define "_srcrpmdir $PWD" \
                --define "dist .el7.centos" \
-               centos-release-nfs-ganehsha28.spec
+               centos-release-nfs-ganesha28.spec
 
     $ cbs \
            build core7-extras-common-el7.centos \
