@@ -33,5 +33,5 @@ sed -i 's/i\$contentdir/centos/g' %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-
 %config(noreplace) %{_sysconfdir}/yum.repos.d/CentOS-NFS-Ganesha-28.repo
 
 %changelog
-* Mon Mar 25 2019 Kaleb S KEITHLEY <kkeithle at redhat.com> - 1.0-1
+* Tue Jun 11 2019 Kaleb S KEITHLEY <kkeithle at redhat.com> - 1.0-1
 - NFS-Ganesha 2.8
