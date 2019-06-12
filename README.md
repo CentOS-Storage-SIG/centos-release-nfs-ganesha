@@ -17,5 +17,5 @@ Build the package ike this:
 
     $ cbs \
            build core7-extras-common-el7.centos \
-           centos-release-nfs-ganehsa28-1.0-1.el7.centos.src.rpm
+           centos-release-nfs-ganesha28-1.0-1.el7.centos.src.rpm
 
