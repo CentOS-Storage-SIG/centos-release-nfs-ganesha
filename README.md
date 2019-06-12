@@ -1,2 +1,2 @@
-# centos-release-nfs-ganesha
-dist-git like repository for the centos-release-nfs-ganesha packages
+centos-release-nfs-ganesha contains different branches for centos-release-nfs-ganesha packages. The master branch is not used.
+
