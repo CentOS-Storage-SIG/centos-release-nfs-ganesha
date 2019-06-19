@@ -1,7 +1,7 @@
 Summary: NFS-Ganesha 2.8 packages from the CentOS Storage SIG repository
 Name: centos-release-nfs-ganesha28
 Version: 1.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2
 URL: http://wiki.centos.org/SpecialInterestGroup/Storage
 Source0: CentOS-NFS-Ganesha-28.repo
@@ -33,5 +33,8 @@ sed -i 's/i\$contentdir/centos/g' %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-
 %config(noreplace) %{_sysconfdir}/yum.repos.d/CentOS-NFS-Ganesha-28.repo
 
 %changelog
+* Wed Jun 19 2019 Giulio Fidente <gfidente@redhat.com> - 1.0-2
+- Fix stale references to Gluster in the .repo file
+
 * Tue Jun 11 2019 Kaleb S KEITHLEY <kkeithle at redhat.com> - 1.0-1
 - NFS-Ganesha 2.8
