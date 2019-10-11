@@ -1,5 +1,5 @@
 centos-release-nfs-ganesha28 provides the YUM repository file for packages
-of the CentOS Storage SIG that are used with NFS-Ganeha 2.8.
+of the CentOS Storage SIG that are used with NFS-Ganesha 2.8.
 
 This package needs to be built against the following targets so that the
 packages land at the right tag for inclusion in CentOS Extras:
