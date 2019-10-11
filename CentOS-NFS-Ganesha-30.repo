@@ -1,0 +1,20 @@
+# CentOS-NFS-Ganesha-30.repo
+#
+# Please see http://wiki.centos.org/SpecialInterestGroup/Storage for more
+# information
+
+[centos-nfs-ganesha30]
+name=CentOS-$releasever - NFS Ganesha 3.0
+mirrorlist=https://mirrorlist.centos.org?arch=$basearch&release=$releasever&repo=storage-nfs-ganesha-30
+#baseurl=https://mirror.centos.org/$contentdir/$releasever/storage/$basearch/nfs-ganesha-30/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Storage
+
+[centos-nfs-ganesha30-test]
+name=CentOS-$releasever - NFS Ganesha 3.0 Testing
+baseurl=https://buildlogs.centos.org/centos/$releasever/storage/$basearch/nfs-ganesha-30/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Storage
+
